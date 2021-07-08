@@ -1879,8 +1879,8 @@ var Icon$Q = function (props) {
 
 var Logo = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
-    return (React.createElement(Svg, __assign({ viewBox: "0 0 500 500" }, props),
-        React.createElement("image", { width: "500", height: "500", href: isDark ? '/images/egg/LogoTextNewDark.png' : '/images/egg/LogoTextNewWhite.png' })));
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 320 515" }, props),
+        React.createElement("image", { width: "320", height: "515", href: isDark ? '/images/egg/LogoTextNewDark.png' : '/images/egg/LogoTextNewWhite.png' })));
 };
 
 var Icon$R = function (props) {
@@ -2831,7 +2831,7 @@ var brandColors = {
 var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#021015", input: "#021015", tertiary: "#EFF4F5", text: "#452A7A", textDisabled: "#BDC2C4", textSubtle: "#012e3ca6", borderColor: "#E9EAEB", card: "#012e3ca6", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#3e3718", background: "#10242b", backgroundDisabled: "#333a3e", contrast: "#FFFFFF", invertedContrast: "#021015", input: "#021015", primaryDark: "##0d0e0e", tertiary: "#021217", text: "#ecd098", textDisabled: "#666171", textSubtle: "#ddd1c1", borderColor: "#847a35", card: "#012e3ca6", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#3e3718", background: "#10242b", backgroundDisabled: "#333a3e", contrast: "#FFFFFF", invertedContrast: "#021015", input: "#021015", primaryDark: "##0d0e0e", tertiary: "#021217", text: "#ecd098", textDisabled: "#666171", textSubtle: "#ddd1c1", borderColor: "#847a35", card: "#4e2b03", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 
