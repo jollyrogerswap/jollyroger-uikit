@@ -2080,7 +2080,7 @@ MenuButton.defaultProps = {
 };
 var templateObject_1$x;
 
-var StyledLink$1 = styled(Link$1)(templateObject_1$y || (templateObject_1$y = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 70px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 70px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 70px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 70px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n"])), function (_a) {
+var StyledLink$1 = styled(Link$1)(templateObject_1$y || (templateObject_1$y = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 40px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 40px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 40px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 40px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n"])), function (_a) {
     var theme = _a.theme;
     return theme.mediaQueries.nav;
 }, function (_a) {
@@ -2831,7 +2831,7 @@ var brandColors = {
 var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#021015", input: "#021015", tertiary: "#EFF4F5", text: "#452A7A", textDisabled: "#BDC2C4", textSubtle: "#012e3ca6", borderColor: "#E9EAEB", card: "#012e3ca6", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#3e3718", background: "#10242b", backgroundDisabled: "#333a3e", contrast: "#FFFFFF", invertedContrast: "#021015", input: "#021015", primaryDark: "##0d0e0e", tertiary: "#021217", text: "#ecd098", textDisabled: "#666171", textSubtle: "#ddd1c1", borderColor: "#847a35", card: "#4e2b03", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#3e3718", background: "#10242b", backgroundDisabled: "#333a3e", contrast: "#FFFFFF", invertedContrast: "#021015", input: "#021015", primaryDark: "##0d0e0e", tertiary: "#021217", text: "#ecd098", textDisabled: "#666171", textSubtle: "#ddd1c1", borderColor: "#847a35", card: "#012e3ca6", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 
